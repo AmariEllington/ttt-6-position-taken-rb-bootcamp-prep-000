@@ -1,4 +1,5 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-arr[index_number] != true
+if arr[index_number] == " "
+  return false 
 end
